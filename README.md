@@ -8,4 +8,8 @@ Sample applications cover New Application, Documents Required, Req. Document Sub
 
 Application changes and uploads are simulated in the browser. No university, KPT, or backend service is connected. Reloading restores the sample data.
 
-Local images are included alongside `index.html`. Some original font and website resources use external URLs.
+The required CSS and JavaScript remain inside `index.html`. Bootstrap is retained for the existing dropdowns and mobile menus. Montserrat, the used icon fonts, and additional images are bundled in `assets/`; the original dashboard images remain alongside `index.html`.
+
+The dashboard can run without external services. Profile edits and password changes are simulated locally. The header language panel supports English, and search filters the local sample applications and bookmarks.
+
+The source before cleanup is preserved in `_archive/dashboard-before-cleanup/`. Browser verification reports and comparison screenshots are inside its `review/` folder. The archive and temporary verification scripts are excluded from Git while the cleanup is reviewed.

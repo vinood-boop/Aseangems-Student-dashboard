@@ -9,3 +9,6 @@ original/
 .*-check.cjs
 .*-check-data.json
 .*-rows.json
+
+_archive/
+.cleanup-work/
